@@ -29,7 +29,7 @@ The well-known ones are currying, dom-diff and fiber(created in react-16).<br/>
 
 (3) Before ng/redux/vue, we can only use static pages and dom operations which have poor performance.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;React and Redux provide data store, fast rendering and better compatibility.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Components are not a new idea but better implemented in React.js.<br/>
 
-(4) In most cases, Libraries provide interfaces for users to call but frameworks call themselves and provide configuration.
+(4) In most cases, libraries provide interfaces for users to call but frameworks call themselves and provide configuration.
 
 <br/>
 
