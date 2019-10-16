@@ -13,10 +13,10 @@ const App = () => {
 
 // 2.实现一个数据结构，把jsx编译后的结构以嵌套形式保存在数据结构对象中（参考react渲染）。
 {
-    "type": "div",
-  	"children":{
-	  	"type": "string",
-	  	"value": "test"
+    type: "div",
+  	children: {
+	  	type: "string",
+	  	value: "test"
   	}
 }
 
@@ -26,10 +26,10 @@ import * from ./dom.js
 const user = { name: 'test' }
 
 const JSXObj = {
-    "type": "div",
-  	"children":{
-	  	"type": String,
-	  	"value": user.name
+    type: "div",
+  	children: {
+ 	  	type: "string",
+	  	value: user.name
   	}
 }
 
@@ -39,13 +39,13 @@ if( JSXObj.hasOwnProperty('children') ){
 
     if(Array.isArray(JSXObj.chilren)){
         JSXObj.children.forEach(function(e){ 
-           if(e.type === String) jsx.append(createElement(e));
+           if(e.type === "string") jsx.append(createElement(e));
            else jsx.appendChild(createElement(e));
         });
     }
     else{
         var e = JSXObj.children;
-        if(e.type === String) jsx.append(createElement(e));
+        if(e.type === "string") jsx.append(createElement(e));
         else jsx.appendChild(createElement(e));
     }
   
