@@ -1,4 +1,7 @@
-## Notes for React.js tutorial on source code https://gitee.com/zhufengpeixun/1.1.jsx
+## Notes for React.js tutorial on source code 
+https://gitee.com/zhufengpeixun/1.1.jsx
+
+https://www.yuque.com/ant-h5/sourcecode
 
 ### Part A:
 
